@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>CandyMuj�ĸ��˲���</title>
   
-  
+  <subtitle>һ����������벩��</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://blog.candymuj.cc/"/>
   <updated>2019-02-22T17:01:36.927Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://blog.candymuj.cc/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Muj</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/02/23/hello-world/"/>
-    <id>http://yoursite.com/2019/02/23/hello-world/</id>
+    <link href="https://blog.candymuj.cc/2019/02/23/hello-world/"/>
+    <id>https://blog.candymuj.cc/2019/02/23/hello-world/</id>
     <published>2019-02-22T17:01:36.927Z</published>
     <updated>2019-02-22T17:01:36.927Z</updated>
     
