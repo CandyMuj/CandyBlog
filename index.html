@@ -27,6 +27,10 @@
 </body>
 <!--<script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>-->
 <script type="text/javascript">
-    window.location.href = "https://www.cnblogs.com/CandyMuj/";
+	let href = window.location.href;
+	let index = href.lastIndexOf('?');
+	let uri = (index != -1 ? href.substring(index + 1) : '');
+
+    window.location.href = "https://www.cnblogs.com/CandyMuj" + ((uri && uri.indexOf('/') == 0) ? uri : '/' + uri);
 </script>
 </html>
