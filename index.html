@@ -31,6 +31,8 @@
 	let index = href.lastIndexOf('?');
 	let uri = (index != -1 ? href.substring(index + 1) : '');
 
-    window.location.href = "https://www.cnblogs.com/CandyMuj" + ((uri && uri.indexOf('/') == 0) ? uri : '/' + uri);
+    let url = ("https://www.cnblogs.com/CandyMuj" + ((uri && uri.indexOf('/') == 0) ? uri : '/' + uri));
+    console.log("jump go to ->", url);
+    window.location.href = url;
 </script>
 </html>
